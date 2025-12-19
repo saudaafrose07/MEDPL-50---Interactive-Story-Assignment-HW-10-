@@ -16,83 +16,55 @@
     }
 
     .overlay {
-      background-color: rgba(255, 255, 255, 0.82);
+      background-color: rgba(255, 255, 255, 0.85);
       min-height: 100vh;
-      padding: 80px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
     }
 
     .content {
-      max-width: 700px;
-      margin: auto;
+      max-width: 600px;
+      text-align: center;
       line-height: 1.9;
       letter-spacing: 0.4px;
     }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 18px;
+    h1 {
+      font-weight: normal;
+      margin-bottom: 20px;
     }
 
     a {
       color: #111;
       text-decoration: none;
       border-bottom: 1px solid rgba(0,0,0,0.3);
+      font-size: 1.1em;
     }
 
     a:hover {
       border-bottom: 1px solid rgba(0,0,0,0.7);
-    }
-
-    /* Styling for the Go Back button */
-    .back-button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 20px;
-      background-color: #111;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .back-button:hover {
-      background-color: #fff;
-      color: #111;
-      border: 1px solid #111;
     }
   </style>
 </head>
 
 <body>
 <div class="overlay">
-  <div class="content">
+<div class="content">
 
-    <h2>Your hand hovers over the controls.</h2>
+<h1>The Time In Between Us</h1>
 
-    <p>
-      The machine reacts instantly — lights surge, the room bends,
-      the air feels heavier, and a weight settles in your chest.
-    </p>
+<p>
+  An interactive narrative about grief,
+  memory, and the quiet weight of choice.
+</p>
 
-    <p>Something has already changed.</p>
+<p>
+  <a href="start.html">Begin</a>
+</p>
 
-    <p>Where do you go?</p>
-
-    <ul>
-      <li><a href="past.html">Step backward — into the past.</a></li>
-      <li><a href="future.html">Step forward — into the future.</a></li>
-      <li><a href="lost.html">Hesitate — your hand slips across the controls.</a></li>
-    </ul>
-
-    <!-- Go Back Button linking directly to previous page -->
-    <a href="index.html" class="back-button">Go Back</a>
-
-  </div>
+</div>
 </div>
 </body>
 </html>
